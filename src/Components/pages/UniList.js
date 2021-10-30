@@ -1,7 +1,13 @@
 import React from "react";
 import '../../App.css';
+import Cards_UniList from "../Cards_UniList";
 
-export default function UniList()
-{
-    return <h1 className='unilist'>UniList</h1>
+function UniList() {
+    return (
+        <>
+            <Cards_UniList />
+        </>
+    )
 }
+
+export default UniList
