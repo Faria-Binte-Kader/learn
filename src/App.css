@@ -8,6 +8,7 @@
   .home,
   .unilist,
   .aboutus,
+  .userprofile,
   .login {
     display: flex;
     height: 90vh;
@@ -22,6 +23,11 @@
   }
   
   .aboutus {
+    color: #000;
+    font-size: 100px;
+  }
+
+  .userprofile {
     color: #000;
     font-size: 100px;
   }

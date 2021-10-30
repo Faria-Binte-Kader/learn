@@ -6,6 +6,7 @@ import Home from './Components/pages/Home';
 import Login from './Components/pages/Login';
 import UniList from './Components/pages/UniList';
 import AboutUs from './Components/pages/AboutUs';
+import UserProfile from './Components/pages/UserProfile';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/unilist' component={UniList}/>
         <Route path='/aboutus' component={AboutUs}/>
+        <Route path='/userprofile' component={UserProfile}/>
         <Route path='/login' component={Login}/>
       </Switch>
       </Router>
